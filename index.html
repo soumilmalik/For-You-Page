@@ -5,39 +5,58 @@
     <title>Soumil Malik</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+         VANTA.DOTS({
+            el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00 
+            })
+    })
+</script>
 
 </head>
 <body>
-   <header>
-        <img src="./images/soumil.jpg" alt="">
-        <h1>@soumil.malik</h1>
-   </header>
+    <div id="vanta"></div>
+    <main>  
+        <header>
+            <img src="./images/soumil.jpg" alt="">
+            <h1>@soumil.malik</h1>
+        </header>
 
-   <ul>
-        <li>
-            <a href="https://soumilmalik.blogspot.com">
-                <img src="./images/homepage.svg" alt="homepage" width="20" />
-                Blog   
-            </a>
-        </li>
-        <li>
-            <a href="https://twitter.com/soumil_malik">
-                <img src="./images/twitter.svg" alt="Twitter" width="20" />
-                Twitter
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/soumil.malik/">
-                <img src="./images/instagram.svg" alt="Instagram" width="20" />
-                Instagram
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/soumilmalik">
-                <img src="./images/github.svg" alt="Github" width="20" />
-                Github 
-            </a>
-        </li>
-   </ul>
+        <ul>
+            <li>
+                <a href="https://soumilmalik.blogspot.com">
+                    <img src="./images/homepage.svg" alt="homepage" width="20" />
+                    Blog   
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/soumil_malik">
+                    <img src="./images/twitter.svg" alt="Twitter" width="20" />
+                    Twitter
+                    </a>
+            </li>
+            <li>
+                    <a href="https://www.instagram.com/soumil.malik/">
+                    <img src="./images/instagram.svg" alt="Instagram" width="20" />
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/soumilmalik">
+                    <img src="./images/github.svg" alt="Github" width="20" />
+                    Github 
+                </a>
+            </li>
+        </ul>
+    </main>
 </body>
 </html>
